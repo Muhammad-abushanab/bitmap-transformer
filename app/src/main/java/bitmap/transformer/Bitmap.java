@@ -35,6 +35,7 @@ public class Bitmap {
                 imageData.setRGB(x, height - 1 - y, topColor);
             }
         }
+        System.out.println("Image flipped vertically.");
     }
     public  void stretchVertically() {
         int heightM = (height * 2);
@@ -50,6 +51,7 @@ public class Bitmap {
                 }
             }
         }
+        System.out.println("Image stretched vertically.");
     }
     public  void random() {
         int rgb;
@@ -59,6 +61,7 @@ public class Bitmap {
                 imageData.setRGB(x, y, rgb);
             }
         }
+        System.out.println("Random effect applied to image.");
     }
     public  void reverseBlackAndGreen() {
         Color black = new Color(0,0,0);
