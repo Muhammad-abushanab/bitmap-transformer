@@ -18,6 +18,8 @@ a project that reads a bmp image file and modify the image in more than one meth
     -`transformerMethod : on of the method explained at the first of this readme file`
     - example `gradle run --args "D:\muhammad\test.bmp modified.bmp reverseblackandgreen"`
 
+### You can use the photo in the resource [folder](./app/src/main/resources/) to test or you can youe own
+
 ## Contributors
 1. Mohammad Abushanab
 2. Omar Al Issawi
